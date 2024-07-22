@@ -1,4 +1,3 @@
-import "./Digital.css"
 function DigitalBank()
 {
     return(

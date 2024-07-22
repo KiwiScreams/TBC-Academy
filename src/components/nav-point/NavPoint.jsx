@@ -1,4 +1,3 @@
-import "./NavPoint"
 function NavPoint()
 {
     return(

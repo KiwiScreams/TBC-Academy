@@ -1,4 +1,3 @@
-import "./Awards.css"
 function Awards()
 {
     return(

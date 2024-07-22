@@ -1,4 +1,3 @@
-import "./Offers.css"
 function Offers()
 {
     return(

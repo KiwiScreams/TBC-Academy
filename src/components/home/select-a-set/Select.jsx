@@ -1,4 +1,3 @@
-import "./Select.css"
 function Select()
 {
     return(
