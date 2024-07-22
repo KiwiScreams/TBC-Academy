@@ -5,4 +5,28 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+}
+:root
+{
+  /* COLOR */
+  --white-clr: #fff;
+  --black-clr: #000;
+  --dark-grey-clr: #4f4f4f;
+  --blue-clr: #182cc0;
+  /* FONTWEIGHT */
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+}
+::-webkit-scrollbar
+{
+  display: none;
+}
+.flex
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
