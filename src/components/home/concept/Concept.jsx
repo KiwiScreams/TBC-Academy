@@ -2,7 +2,7 @@ import background_image from "../../../assets/images/first-image.webp"
 function ConceptPanel() {
     return (
         <>
-            <section className="w-full h-96 overflow-hidden rounded-lg p-24" style={{
+            <section className="w-full h-96 overflow-hidden rounded-lg p-24 mb-16" style={{
                 backgroundImage: `url(${background_image})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
