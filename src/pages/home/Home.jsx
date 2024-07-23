@@ -7,6 +7,7 @@ import BankerPanel from "../../components/home/personal-banker-panel/BankerPanel
 import Products from "../../components/home/products/Products"
 import Select from "../../components/home/select-a-set/Select"
 import NavPoint from "../../components/nav-point/NavPoint"
+import Footer from "../../components/shared/footer/Footer"
 
 function Home() {
     return (
@@ -23,6 +24,7 @@ function Home() {
                 <Products />
                 <BankerPanel />
                 <Awards />
+                <Footer />
             </main>
         </>
     )

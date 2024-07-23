@@ -21,10 +21,10 @@ body
 {
   background-color: #f8f8f8;
 }
-/* ::-webkit-scrollbar
+::-webkit-scrollbar
 {
   display: none;
-} */
+}
 .und-line::after
 {
     position: absolute;
