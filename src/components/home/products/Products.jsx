@@ -10,18 +10,18 @@ function Products() {
         [
             {
                 image: image_1,
-                title: "ინვესტიციები",
-                name: "MP დეველოპმენტი - აშშ და ევროს ობლიგაციები"
+                title: "ციფრული",
+                name: "თიბისი კონცეპტის ციფრული ნაკრები განკუთვნილია მათთვის, ვისთვისაც საბანკო მომსახურებით სარგებლობა ყოველდღიურობის ნაწილია, ვინც..."
             },
             {
                 image: image_2,
-                title: "ჯაზ ფესტივალის შეთავაზებები",
-                name: "IVERIA BEACH - დაიბრუნეთ 30%"
+                title: "პრემიუმი",
+                name: "თიბისი კონცეპტის მომხმარებლებთან ურთიერთობის ერთ-ერთი ფორმატი - პრემიუმ ნაკრები. სხვა საბანკო და არასაბანკო უპირატესობებთან ერთად"
             },
             {
                 image: image_3,
-                title: "ავტო თეგეტა მოტორსი",
-                name: "თეგეტა მოტორსი - 50% ფასდაკლება"
+                title: "360",
+                name: "თიბისი კკონცეპტის 360 ნაკრები განკუთვნილია მათთვის, ვისაც სხვა საბანკო და არასაბანკო უპირატესობებთან ერთად, კიდევ უფრო მეტი ფინანსური ინსტრუმენტი..."
             }
         ];
     var settings = {
@@ -35,7 +35,7 @@ function Products() {
     return (
         <>
             <section className="w-9/12 m-auto mb-28">
-                <h2 className="text-2xl text-gray-950 font-bold">შეთავაზებები</h2>
+                <h2 className="text-2xl text-gray-950 font-bold mb-9">პროდუქტები</h2>
                 <div className="w-full">
                     <div className="h-full m-auto">
                         <Slider {...settings}>
@@ -45,11 +45,11 @@ function Products() {
                                         <div className="p-3" key={index}>
                                             <div className="w-full bg-white relative h-[400px] rounded-lg overflow-hidden border-solid border-gray-300 border-[0.5px]" >
                                                 <div className="w-full">
-                                                    <img src={product.image} className="object-contain w-full" />
+                                                    <img src={product.image} className="h-[200px]" />
                                                 </div>
-                                                <div className="p-7">
-                                                    <p className="text-gray-400 text-xs">{product.title}</p>
-                                                    <h3 className="font-bold text-lg">{product.name}</h3>
+                                                <div className="p-6">
+                                                    <h3 className="font-bold text-lg">{product.title}</h3>
+                                                    <p className="text-gray-600 text-sm">{product.name}</p>
                                                 </div>
                                             </div>
                                         </div>
