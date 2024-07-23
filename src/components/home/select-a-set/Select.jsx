@@ -4,7 +4,7 @@ import background_image_3 from "../../../assets/images/image-3.png"
 function Select() {
     return (
         <>
-            <section className="w-full mb-28">
+            <section className="w-9/12 m-auto mb-28">
                 <h2 className="mb-9 text-2xl text-gray-950 font-bold">შეარჩიეთ ნაკრები</h2>
                 <div className="h-[532px] gap-8 grid-rows-1 grid grid-cols-2 grid-rows-auto">
 
