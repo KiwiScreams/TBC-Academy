@@ -17,14 +17,9 @@ html
   scroll-behavior: smooth;
   scroll-padding-top: 50px;
 }
-:root
+body
 {
-  --white-clr: #fff;
-  --black-clr: #000;
-  --dark-grey-clr: #4f4f4f;
-  --blue-clr: #182cc0;
-  --font-weight-400: 400;
-  --font-weight-700: 700;
+  background-color: #f8f8f8;
 }
 ::-webkit-scrollbar
 {

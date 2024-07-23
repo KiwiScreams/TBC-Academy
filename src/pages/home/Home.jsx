@@ -1,4 +1,5 @@
 import ConceptPanel from "../../components/home/concept/Concept"
+import EventNumbers from "../../components/home/event-numbers/EventNumbers"
 import Select from "../../components/home/select-a-set/Select"
 import NavPoint from "../../components/nav-point/NavPoint"
 
@@ -11,6 +12,7 @@ function Home() {
                 <h1 className="text-4xl font-medium mb-32">გამოიწერეთ თიბისი კონცეპტის ნაკრები და ისარგებლეთ როგორც საბანკო, ისე არასაბანკო უპირატესობებით.</h1>
                 <NavPoint />
                 <Select />
+                <EventNumbers />
             </main>
         </>
     )
