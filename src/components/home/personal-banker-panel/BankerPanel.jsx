@@ -11,7 +11,7 @@ function BankerPanel() {
                 <div className="flex flex-col gap-6">
                     <h1 className="text-2xl font-bold text-white">პირადი ბანკირი</h1>
                     <p className="text-base text-white w-full">თქვენი სანდო პარტნიორი ფინანსურ რჩევებსა და ოპერაციებში</p>
-                    <button className="flex items-center gap-2 bg-gradient-to-r font-bold from-blue-800 to-blue-500 text-white text-xs w-36 h-12 justify-center rounded-md hover:bg-blue-800">გაიგეთ მეტი</button>
+                    <button className="flex items-center gap-2 bg-gradient-to-r font-bold from-blue-800 to-blue-500 text-white text-xs w-36 h-12 justify-center rounded-md hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400">გაიგეთ მეტი</button>
                 </div>
             </section>
         </>

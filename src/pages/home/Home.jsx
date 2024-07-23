@@ -24,7 +24,6 @@ function Home() {
                 <Products />
                 <BankerPanel />
                 <Awards />
-                <Footer />
             </main>
         </>
     )

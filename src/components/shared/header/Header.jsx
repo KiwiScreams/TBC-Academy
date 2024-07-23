@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom"
 import image from "../../../assets/images/image-22.png"
-import HeaderDropdown from "./HeaderDropdown"
 import { useState } from "react"
 function Header() {
     const [open, setOpen] = useState(false);
@@ -14,32 +13,15 @@ function Header() {
                         </NavLink>
                     </div>
                     <ul className="flex justify-between items-center gap-9">
-                        <li className="und-line relative h-20 flex justify-center items-center" onClick={() => { setOpen(!open) }}>
+                        <li className="und-line relative h-20 flex justify-center items-center" >
                             <p>პროდუქტები
-                            <ul className={`${open ? 'active-header' : "inactive-header"}`}>
-                                    <HeaderDropdown title={"მიმოხილვა1"} />
-                                    <HeaderDropdown title={"შეთავაზებები1"} />
-                                    <HeaderDropdown title={"ღონისძიებები1"} />
-                                </ul>
                             </p>
                         </li>
-                        <li className="und-line relative h-20 flex justify-center items-center" onClick={() => { setOpen(!open) }}>
-                            <p>შეთავაზებები
-                                <ul className={`${open ? 'active-header' : "inactive-header"}`}>
-                                    <HeaderDropdown title={"მიმოხილვა"} />
-                                    <HeaderDropdown title={"შეთავაზებები"} />
-                                    <HeaderDropdown title={"ღონისძიებები"} />
-                                </ul></p>
+                        <li className="und-line relative h-20 flex justify-center items-center" >
+                            <p>შეთავაზებები</p>
                         </li>
-                        <li className="und-line relative h-20 flex justify-center items-center" onClick={() => { setOpen(!open) }}>
-                            <p>კონცეპტის სივრცე
-                                <ul className={`${open ? 'active-header' : "inactive-header"}`}>
-                                    <HeaderDropdown title={"მიმოხილვა"} />
-                                    <HeaderDropdown title={"კაფე"} />
-                                    <HeaderDropdown title={"ბიბლიოთეკა"} />
-                                    <HeaderDropdown title={"კონცეპტ ფილიალები"} />
-                                </ul>
-                            </p>
+                        <li className="und-line relative h-20 flex justify-center items-center" >
+                            <p>კონცეპტის სივრცე</p>
                         </li>
                     </ul>
                     <ul className="flex justify-between items-center gap-4">
@@ -52,7 +34,7 @@ function Header() {
                             გამოიწერეთ ნაკრები
                         </NavLink>
                         </li>
-                        <li className="font-bold flex justify-between items-center text-base rounded-md text-gray-700 hover:bg-gray-200">
+                        <li className="font-bold flex justify-between items-center text-base rounded-md text-gray-700 p-2 hover:bg-gray-200">
                             <svg data-v-562b0aec="" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path data-v-562b0aec="" d="M14.6654 7.99992C14.6654 4.32659 11.672 1.33325 7.9987 1.33325C4.32536 1.33325 1.33203 4.32659 1.33203 7.99992C1.33203 11.6733 4.32536 14.6666 7.9987 14.6666C11.672 14.6666 14.6654 11.6733 14.6654 7.99992ZM13.2854 7.33325H11.3187C11.2587 5.83325 10.972 4.37325 10.4587 3.26659C11.9787 4.05992 13.072 5.55992 13.292 7.33325H13.2854ZM7.9987 13.3333C6.9787 13.3333 6.1387 11.2999 6.0187 8.66659H9.98536C9.86536 11.2999 9.02536 13.3333 8.00536 13.3333H7.9987ZM6.0187 7.33325C6.1387 4.69992 6.9787 2.66659 7.9987 2.66659C9.0187 2.66659 9.8587 4.69992 9.9787 7.33325H6.01203H6.0187ZM5.54536 3.26659C5.02536 4.37325 4.74536 5.82659 4.68536 7.33325H2.7187C2.9387 5.55992 4.03203 4.05992 5.55203 3.26659H5.54536ZM2.71203 8.66659H4.6787C4.7387 10.1666 5.02536 11.6266 5.5387 12.7333C4.0187 11.9399 2.92536 10.4399 2.70536 8.66659H2.71203ZM10.452 12.7333C10.972 11.6266 11.252 10.1733 11.312 8.66659H13.2787C13.0587 10.4399 11.9654 11.9399 10.4454 12.7333H10.452Z"></path></svg>
                             ქარ
                         </li>

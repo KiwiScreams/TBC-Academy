@@ -82,8 +82,8 @@ function Offers() {
                                 items.map((item, index) => {
                                     return (
                                         <div className="p-3" key={index}>
-                                            <div className="w-full bg-white relative h-[400px] rounded-lg overflow-hidden border-solid border-gray-300 border-[0.5px]" >
-                                                <div className="absolute w-20 h-14 bg-white rounded-l-lg flex justify-center items-center z-3 top-0 right-5">
+                                            <div className="w-full bg-white relative h-[400px] rounded-lg overflow-hidden border-solid border-gray-300 border-[0.5px] hover:shadow-md" >
+                                                <div className="absolute w-20 h-14 bg-white rounded-l-lg flex justify-center items-center z-3 top-0 right-0 overflow-hidden">
                                                     <img src={item.company} alt="company" className="w-full" />
                                                 </div>
                                                 <div className="w-full">

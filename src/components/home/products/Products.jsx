@@ -43,9 +43,9 @@ function Products() {
                                 products.map((product, index) => {
                                     return (
                                         <div className="p-3" key={index}>
-                                            <div className="w-full bg-white relative h-[400px] rounded-lg overflow-hidden border-solid border-gray-300 border-[0.5px]" >
+                                            <div className="w-full bg-white relative h-[400px] rounded-lg overflow-hidden border-solid border-gray-300 border-[0.5px] hover:shadow-md" >
                                                 <div className="w-full">
-                                                    <img src={product.image} className="h-[200px]" />
+                                                    <img src={product.image} className="h-[200px] w-full" />
                                                 </div>
                                                 <div className="p-6">
                                                     <h3 className="font-bold text-lg mb-3">{product.title}</h3>

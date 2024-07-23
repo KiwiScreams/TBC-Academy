@@ -52,7 +52,7 @@ function Awards() {
                                 awards.map((award, index) => {
                                     return (
                                         <div className="p-3" key={index}>
-                                            <div className="w-full bg-white relative h-[240px] rounded-lg overflow-hidden border-solid border-gray-300 border-[0.5px]" >
+                                            <div className="w-full bg-white relative h-[240px] rounded-lg overflow-hidden border-solid border-gray-300 border-[0.5px] hover:shadow-md" >
                                                 <div className="w-24 m-auto mt-6 h-10">
                                                     <img src={award.image} className="object-contain w-full h-full" />
                                                 </div>
