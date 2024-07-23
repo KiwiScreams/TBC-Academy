@@ -2,6 +2,7 @@ import ConceptPanel from "../../components/home/concept/Concept"
 import DigitalBank from "../../components/home/digital/Digital"
 import EventNumbers from "../../components/home/event-numbers/EventNumbers"
 import Offers from "../../components/home/offers/Offers"
+import BankerPanel from "../../components/home/personal-banker-panel/BankerPanel"
 import Products from "../../components/home/products/Products"
 import Select from "../../components/home/select-a-set/Select"
 import NavPoint from "../../components/nav-point/NavPoint"
@@ -19,6 +20,7 @@ function Home() {
                 <Offers />
                 <DigitalBank />
                 <Products />
+                <BankerPanel />
             </main>
         </>
     )
