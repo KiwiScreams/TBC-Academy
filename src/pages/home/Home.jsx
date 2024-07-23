@@ -1,5 +1,6 @@
 import ConceptPanel from "../../components/home/concept/Concept"
 import EventNumbers from "../../components/home/event-numbers/EventNumbers"
+import Offers from "../../components/home/offers/Offers"
 import Select from "../../components/home/select-a-set/Select"
 import NavPoint from "../../components/nav-point/NavPoint"
 
@@ -13,6 +14,7 @@ function Home() {
                 <NavPoint />
                 <Select />
                 <EventNumbers />
+                <Offers />
             </main>
         </>
     )
