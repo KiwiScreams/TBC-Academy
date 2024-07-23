@@ -52,14 +52,14 @@ function Offers() {
                     </NavLink>
                     </span>
                 </div>
-                <div className="w-full bg-red-300">
-                    <div className="h-[400px] w-full m-auto bg-blue-300">
+                <div className="w-full">
+                    <div className="h-full m-auto">
                         <Slider {...settings}>
                             {
                                 items.map((item, index) => {
                                     return (
-                                        <div key={index} className="w-[420px] bg-red-400 relative">
-                                            <div className="absolute w-20 h-14 bg-white rounded-l-lg flex justify-center items-center z-3 top-0 right-0">
+                                        <div key={index} className="w-[300px] bg-white relative h-[400px] rounded-lg overflow-hidden pr-5" >
+                                            <div className="absolute w-20 h-14 bg-white rounded-l-lg flex justify-center items-center z-3 top-0 right-5">
                                                 <img src={item.company} alt="company" className="w-full"/>
                                             </div>
                                             <div className="w-full">
