@@ -48,7 +48,7 @@ function Products() {
                                                     <img src={product.image} className="h-[200px]" />
                                                 </div>
                                                 <div className="p-6">
-                                                    <h3 className="font-bold text-lg">{product.title}</h3>
+                                                    <h3 className="font-bold text-lg mb-3">{product.title}</h3>
                                                     <p className="text-gray-600 text-sm">{product.name}</p>
                                                 </div>
                                             </div>

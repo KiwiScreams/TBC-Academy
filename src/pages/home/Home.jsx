@@ -1,3 +1,4 @@
+import Awards from "../../components/home/awards/Awards"
 import ConceptPanel from "../../components/home/concept/Concept"
 import DigitalBank from "../../components/home/digital/Digital"
 import EventNumbers from "../../components/home/event-numbers/EventNumbers"
@@ -21,6 +22,7 @@ function Home() {
                 <DigitalBank />
                 <Products />
                 <BankerPanel />
+                <Awards />
             </main>
         </>
     )
