@@ -34,7 +34,7 @@ function Products() {
     };
     return (
         <>
-            <section className="w-9/12 m-auto mb-28">
+            <section className="w-9/12 m-auto mb-28 max-[640px]:w-full max-[640px]:h-[350px]">
                 <h2 className="text-2xl text-gray-950 font-bold mb-9">პროდუქტები</h2>
                 <div className="w-full">
                     <div className="h-full m-auto">

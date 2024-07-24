@@ -66,7 +66,7 @@ function Offers() {
     };
     return (
         <>
-            <section className="w-9/12 m-auto mb-28">
+            <section className="w-9/12 m-auto mb-28 max-[640px]:w-full max-[640px]:h-[350px]">
                 <div className="flex items-center justify-between mb-9">
                     <h2 className="text-2xl text-gray-950 font-bold">შეთავაზებები</h2>
                     <span className="text-blue-900 font-bold"><NavLink to="/" className="flex justify-center items-center gap-2 hover:opacity-70">
@@ -82,7 +82,7 @@ function Offers() {
                                 items.map((item, index) => {
                                     return (
                                         <div className="p-3" key={index}>
-                                            <div className="w-full bg-white relative h-[400px] rounded-lg overflow-hidden border-solid border-gray-300 border-[0.5px] hover:shadow-md" >
+                                            <div className="w-full bg-white relative h-[400px] rounded-lg overflow-hidden border-solid border-gray-300 border-[0.5px] hover:shadow-md max-[640px]:h-full">
                                                 <div className="absolute w-20 h-14 bg-white rounded-l-lg flex justify-center items-center z-3 top-0 right-0 overflow-hidden">
                                                     <img src={item.company} alt="company" className="w-full" />
                                                 </div>
@@ -90,8 +90,8 @@ function Offers() {
                                                     <img src={item.image} className="object-contain w-full" />
                                                 </div>
                                                 <div className="p-7">
-                                                    <p className="text-gray-400 text-xs">{item.title}</p>
-                                                    <h3 className="font-bold text-lg">{item.name}</h3>
+                                                    <p className="text-gray-400 text-xs max-[640px]:text-xs">{item.title}</p>
+                                                    <h3 className="font-bold text-lg max-[640px]:text-xs">{item.name}</h3>
                                                 </div>
                                             </div>
                                         </div>

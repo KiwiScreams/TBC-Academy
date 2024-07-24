@@ -15,7 +15,7 @@ function Home() {
             <main className="w-full m-auto">
                 <h6 className="text-xs text-gray-500 mt-28 mb-14 w-9/12 m-auto">მთავარი</h6>
                 <ConceptPanel />
-                <h1 className="text-4xl font-medium mb-32 w-9/12 m-auto">გამოიწერეთ თიბისი კონცეპტის ნაკრები და ისარგებლეთ როგორც საბანკო, ისე არასაბანკო უპირატესობებით.</h1>
+                <h1 className="text-4xl font-medium mb-32 2xl:w-9/12 m-auto md:w-11/12 sm:w-10/12 max-[640px]:w-10/12">გამოიწერეთ თიბისი კონცეპტის ნაკრები და ისარგებლეთ როგორც საბანკო, ისე არასაბანკო უპირატესობებით.</h1>
                 <NavPoint />
                 <Select />
                 <EventNumbers />

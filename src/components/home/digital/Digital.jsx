@@ -5,7 +5,7 @@ function DigitalBank() {
     return (
         <>
             <section className="w-full bg-white pt-10 mb-28">
-                <div className="w-9/12 m-auto flex items-center justify-between">
+                <div className="w-9/12 m-auto flex items-center justify-between max-[640px]:flex-col">
                     <div>
                         <h2 className="text-2xl font-bold mb-5">ციფრული ბანკი</h2>
                         <p className="mb-3 text-gray-500">შეასრულეთ საბანკო ოპერაციები დისტანციურად, ციფრული ბანკის დახმარებით</p>

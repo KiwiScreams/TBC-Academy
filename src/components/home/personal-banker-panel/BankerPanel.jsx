@@ -2,7 +2,7 @@ import background_image from "../../../assets/images/image-9.png"
 function BankerPanel() {
     return (
         <>
-            <section className="w-9/12 m-auto h-[360px] overflow-hidden rounded-lg p-24 mb-16" style={{
+            <section className="2xl:w-9/12 m-auto lg:h-96 overflow-hidden rounded-lg lg:p-24 sm:pt-56 sm:px-12 mb-16 md:w-11/12 sm:w-full sm:h-[450px] max-[640px]:w-full max-[640px]:h-56 max-[640px]:p-8" style={{
                 backgroundImage: `url(${background_image})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',

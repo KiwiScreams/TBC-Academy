@@ -41,7 +41,7 @@ function Awards() {
     };
     return (
         <>
-            <section className="w-9/12 m-auto mb-28">
+            <section className="w-9/12 m-auto mb-28 max-[640px]:w-full max-[640px]:h-[350px]">
                 <div className="flex items-center justify-between mb-9">
                     <h2 className="text-2xl text-gray-950 font-bold">ჯილდოები</h2>
                 </div>
@@ -52,13 +52,13 @@ function Awards() {
                                 awards.map((award, index) => {
                                     return (
                                         <div className="p-3" key={index}>
-                                            <div className="w-full bg-white relative h-[240px] rounded-lg overflow-hidden border-solid border-gray-300 border-[0.5px] hover:shadow-md" >
-                                                <div className="w-24 m-auto mt-6 h-10">
+                                            <div className="w-full bg-white relative h-[240px] rounded-lg overflow-hidden border-solid border-gray-300 border-[0.5px] hover:shadow-md max-[640px]:h-full">
+                                                <div className="w-full m-auto mt-6 h-10">
                                                     <img src={award.image} className="object-contain w-full h-full" />
                                                 </div>
-                                                <div className="p-7">
-                                                    <h3 className="font-bold text-lg mb-5">{award.title}</h3>
-                                                    <p className="text-gray-400 text-xs">{award.name}</p>
+                                                <div className="p-7 overflow-hidden">
+                                                    <h3 className="font-bold text-lg mb-5 max-[640px]:text-xs">{award.title}</h3>
+                                                    <p className="text-gray-400 text-xs max-[640px]:text-xs">{award.name}</p>
                                                 </div>
                                             </div>
                                         </div>
