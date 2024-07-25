@@ -54,7 +54,7 @@ function Offers() {
                 name: "Colosseum Marina Hotel - 15%-იანი ფასდაკლება"
             },
         ];
-    var settings = {
+    let settings = {
         dots: false,
         infinite: true,
         speed: 500,

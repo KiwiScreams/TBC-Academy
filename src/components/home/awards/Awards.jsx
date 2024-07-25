@@ -29,7 +29,7 @@ function Awards() {
                 name: "The Ranker & PWM"
             }
         ];
-    var settings = {
+    let settings = {
         dots: false,
         infinite: true,
         speed: 500,
